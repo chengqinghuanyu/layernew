@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>两列布局-左浮动-右边距离左边margin-left左边盒子宽度</title>
+    <style>
+        .color-blue {
+            color: blue;
+        }
+        
+        .color-yellow {
+            color: yellow;
+        }
+        
+        .background-color-blue {
+            background-color: blue;
+        }
+        
+        .background-color-black {
+            background-color: black;
+        }
+        
+        .background-color-red {
+            background-color: red;
+        }
+        
+        .background-color-yellow {
+            background-color: yellow;
+        }
+        
+        .height-60 {
+            height: 60px;
+        }
+        .height-auto{
+            height: auto;
+        }
+        
+        .border-color-red {
+            border: 2px solid #ff0000;
+        }
+        
+        .left {
+            float: left;
+        }
+        
+        .right {
+            float: right;
+        }
+        
+        .font-size-20 {
+            font-size: 20px;
+        }
+        
+        .line-height-1_5 {
+            line-height: 1.5;
+        }
+        
+        .width-1 {
+            width: 100%;
+        }
+        
+        .width-auto {
+            width: auto;
+        }
+        
+        .width-300 {
+            width: 300px;
+        }
+        
+        .width-960 {
+            width: 960px;
+        }
+        
+        .width-100 {
+            width: 100%;
+        }
+        
+        .inline-block {
+            display: inline-block;
+        }
+        /*第一种水平居中方式*/
+        
+        .center-1 {
+            margin: 0 auto;
+        }
+        /*第二种水平居中方式*/
+        
+        .center-2 {
+            position: absolute;
+            left: 50%;
+            margin-left: -480px;
+        }
+        
+        .margin-left-301 {
+            margin-left: 301px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--两列布局，其中左侧固定，右侧自适应-->
+    <div class="left background-color-red height-auto width-300">
+        
+        <ul><li><a href="#">啊啊啊</a> </li><li><a href="#">啊啊啊</a> </li><li><a href="#">啊啊啊</a> </li><li><a href="#">啊啊啊</a> </li></ul>
+    </div>
+    <div class=" background-color-black height-60 margin-left-301 "></div>
+</body>
+
+</html>
